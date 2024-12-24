@@ -40,16 +40,31 @@
             <label for="aa">What is AA?</label>
             <textarea id="aa" name="aa" required></textarea>
 
-            <label for="moderatorCommands">What is command that moderator can only use?</label>
+            <label for="moderatorCommands">What is command that moderator can only use? (Name at least 5 commands)</label>
             <textarea id="moderatorCommands" name="moderatorCommands" required></textarea>
 
-            <button type="submit">Submit Application</button>
+            <button type="submit" id="submitButton">Submit Application</button>
         </form>
-         <!-- Staff Login Button -->
+
+        <div id="thankYouMessage" class="hidden">Thank you for your application! We will review it shortly.</div>
+
+        <div class="rules">
+            <h2>Rules</h2>
+            <ul>
+                <li>Be respectful to all members.</li>
+                <li>Do not spam or flood the chat.</li>
+                <li>Follow all server rules and guidelines.</li>
+                <li>Do not share personal information.</li>
+                <li>Be active and participate in community events.</li>
+            </ul>
+        </div>
+
+        <!-- Staff Login Button -->
         <div class="login-link">
-            <a href="pages/stafflogin.html" class="login-button">Staff Login</a>
+            <a href="login.html" class="login-button">Staff Login</a>
         </div>
     </div>
+
     <script src="java/script.js"></script>
 </body>
 </html>
