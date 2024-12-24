@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYCRP Staff Application</title>
+    <link rel="stylesheet" href="css/script.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NYCRP Staff Application</h1>
+        <form id="applicationForm">
+            <label for="robloxUsername">Roblox Username:</label>
+            <input type="text" id="robloxUsername" name="robloxUsername" required>
+
+            <label for="discordUsername">Discord Username:</label>
+            <input type="text" id="discordUsername" name="discordUsername" required>
+
+            <label for="ageConfirmation">Are you over +13?</label>
+            <select id="ageConfirmation" name="ageConfirmation" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+
+            <label for="staffRole">What do you want to be staff in NYCRP?</label>
+            <input type="text" id="staffRole" name="staffRole" required>
+
+            <label for="pastExperience">Do you have any past experience?</label>
+            <textarea id="pastExperience" name="pastExperience" required></textarea>
+
+            <label for="whyPickYou">Why should we pick you than other people?</label>
+            <textarea id="whyPickYou" name="whyPickYou" required></textarea>
+
+            <label for="rdm">What is RDM?</label>
+            <textarea id="rdm" name="rdm" required></textarea>
+
+            <label for="nlr">What is NLR?</label>
+            <textarea id="nlr" name="nlr" required></textarea>
+
+            <label for="aa">What is AA?</label>
+            <textarea id="aa" name="aa" required></textarea>
+
+            <label for="moderatorCommands">What is command that moderator can only use?</label>
+            <textarea id="moderatorCommands" name="moderatorCommands" required></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+    <script src="java/script.js"></script>
+</body>
+</html>
